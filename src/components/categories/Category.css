@@ -1,0 +1,50 @@
+.category-image {
+  margin-bottom: 10px;
+}
+
+.category-figur {
+  width: 151px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.summer-blue {
+  background-color: #c4fffb;
+}
+
+.shoe-dark {
+  background-color: #384267;
+}
+.lingerie-red {
+  background-color: #ff3636;
+}
+.texedo-yellow {
+  background-color: #f2db0e;
+}
+
+.boy-black {
+  background-color: #2c3335;
+}
+
+.girl-green {
+  background-color: #00dd8d;
+}
+.category-caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.75px;
+  color: #000000;
+  text-align: center;
+}
+
+.category-caption > a {
+  text-decoration: none;
+  color: #000000;
+}

@@ -1,0 +1,146 @@
+.home-background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.home-background-pic {
+  width: 100%;
+  max-width: 1440px;
+  height: 880px;
+  z-index: -1;
+}
+
+.home-checkOut {
+  position: absolute;
+  top: 166px;
+  left: 250px;
+}
+
+.home-checkOut > p {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -0.75px;
+}
+
+.home-stars {
+  width: 77.36px;
+  display: flex;
+  margin: 13px 0;
+  justify-content: space-between;
+}
+
+.home-background-details {
+  position: absolute;
+  top: 452px;
+  left: 443px;
+}
+
+.home-background-details > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.75px;
+  color: #000000;
+}
+
+.home-background-smp {
+  opacity: 0.8;
+  padding-bottom: 9px;
+}
+
+.home-background-price {
+  margin-bottom: 26px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.5px;
+}
+
+.home-background-price-zero {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+}
+
+.RiStarLine,
+.RiStarFill {
+  width: 13.33px;
+  height: 12.67px;
+}
+
+.changeColorBtn {
+  position: absolute;
+  width: 42px;
+  height: 48px;
+  opacity: 0.5;
+  border-radius: 0px 0px 21px 21px;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.onGreen {
+  width: 42px;
+  height: 70px;
+  opacity: 1;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 21.3043px 21.3043px;
+  background-color: #1c6256;
+}
+.onYellow {
+  width: 42px;
+  height: 70px;
+  opacity: 1;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 21.3043px 21.3043px;
+  background-color: #f1da08;
+}
+.onBlue {
+  width: 42px;
+  height: 70px;
+  opacity: 1;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 21.3043px 21.3043px;
+  background-color: #20bedd;
+}
+
+.blueBtn {
+  background-color: #20bedd;
+  top: 712px;
+  left: 567px;
+}
+
+.yellowBtn {
+  background-color: #f1da08;
+  top: 712px;
+  left: 505px;
+}
+
+.greenBtn {
+  background-color: #1c6256;
+  top: 712px;
+  left: 443px;
+}
+.home-background-department {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.75px;
+  color: #000000;
+  position: absolute;
+  left: 150px;
+  bottom: 1px;
+}

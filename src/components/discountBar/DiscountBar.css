@@ -1,0 +1,46 @@
+.discountBar-caption {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 1px #ffffff;
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  margin-top: -62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 22px;
+}
+
+.discountBar-caption > a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.discountBar-price {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.75px;
+  margin-top: 4px;
+}
+
+.discountBar-oldPrice {
+  font-weight: normal;
+  color: #929292;
+}
+
+.discountBar-currentPrice {
+  font-weight: bold;
+  color: #ff3a2e;
+  margin-left: 16px;
+}

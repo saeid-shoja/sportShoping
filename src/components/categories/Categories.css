@@ -1,0 +1,8 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
